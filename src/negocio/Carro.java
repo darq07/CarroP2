@@ -12,7 +12,7 @@ public class Carro {
 
     public void setVelocidad(double velocidad){
         if (velocidad < 0)
-            velocidad = 0;
+            velocidad = 0.0;
         this.velocidad = velocidad;
     }
 

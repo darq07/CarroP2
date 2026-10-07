@@ -20,7 +20,7 @@ public class MainCarro {
 
         System.out.println("La velocidad del carro 1 es "+c1.getVelocidad()+" y la potencia es "+c1.getPotencia());
         System.out.println("La velocidad del carro 2 es "+c2.getVelocidad()+" y la potencia es "+c2.getPotencia());
-        System.out.println("La velocidad del carro 3 es "+c3.getVelocidad()+" y la potencia es "+c3.getPotencia());
+        System.out.println("La velocidad del carro 3.0 es "+c3.getVelocidad()+" y la potencia es "+c3.getPotencia());
         c1.acelerar();
         c1.frenar();
 
