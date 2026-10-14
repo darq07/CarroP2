@@ -2,11 +2,13 @@ package negocio;
 
 public class MainCarro {
     static void main() {
+        System.out.println("El número de objetos de tipo carro creados: "+Carro.getNumCarros());
+        System.out.println("El IVA de los vehiulos es: "+Carro.getIva());
         Carro c1 = new Carro(2,60);
         Carro c2 = new Carro(-5, -100);
         Carro c3 = new Carro(2,50);
-
-
+        System.out.println("El numero de objetos de tipo Carro creados son: "+Carro.getNumCarros());
+        System.out.println("El precio de venta al publico del carro 1 es: "+c1.calcularPrecioTotal(21599));
        /* c1.setVelocidad(60);
         c1.setPotencia(2);
 
