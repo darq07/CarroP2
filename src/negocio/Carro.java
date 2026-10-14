@@ -1,9 +1,22 @@
 package negocio;
 
-public class Carro {
+public class     Carro {
     private int potencia;
     private double velocidad;
 
+    public Carro(int potencia, double velocidad){
+        /*
+        this.potencia = potencia;
+        this.velocidad = velocidad; */
+        //si los atributos itnen vaidaciones tuilizo set()
+        setPotencia(potencia);
+        setVelocidad(velocidad);
+
+    }
+
+    public Carro() {
+
+    }
 
     public void setPotencia(int potencia){
         if(potencia > 0)
